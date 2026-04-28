@@ -7,6 +7,7 @@ const navItems = [
   { path: "/performance", label: "03 · Performance" },
   { path: "/api", label: "04 · API Integration" },
   { path: "/forms", label: "05 · Form Handling" },
+  { path: "/forms/inputs", label: "05b · Input Cheat Sheet" },
   { path: "/lists", label: "06 · List Rendering" },
   { path: "/routing", label: "07 · Routing" },
   { path: "/responsive", label: "08 · Responsive" },

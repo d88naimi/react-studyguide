@@ -13,6 +13,7 @@ const PerformancePatterns = lazy(
 );
 const ApiPatterns = lazy(() => import("./patterns/04-api/ApiPatterns"));
 const FormPatterns = lazy(() => import("./patterns/05-forms/FormPatterns"));
+const InputCheatsheet = lazy(() => import("./patterns/05-forms/InputCheatsheet"));
 const ListPatterns = lazy(() => import("./patterns/06-lists/ListPatterns"));
 const RoutingPatterns = lazy(
   () => import("./patterns/07-routing/RoutingPatterns"),
@@ -42,6 +43,7 @@ function App() {
         <Route path="performance" element={<PerformancePatterns />} />
         <Route path="api" element={<ApiPatterns />} />
         <Route path="forms" element={<FormPatterns />} />
+        <Route path="forms/inputs" element={<InputCheatsheet />} />
         <Route path="lists" element={<ListPatterns />} />
         <Route path="routing" element={<RoutingPatterns />} />
         <Route path="responsive" element={<ResponsivePatterns />} />
