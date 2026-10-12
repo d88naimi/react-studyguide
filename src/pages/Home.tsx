@@ -85,6 +85,12 @@ const topics = [
     title: "React 19 Tips & Tricks",
     desc: "Actions, useOptimistic, useActionState, use(), ref as a prop, useEffectEvent",
   },
+  {
+    path: "/interview-prep",
+    num: "15",
+    title: "Live Coding Interview Exercises",
+    desc: "Autocomplete, infinite scroll, modal, tabs, countdown, validated form, sortable list, star rating",
+  },
 ];
 
 export default function Home() {
