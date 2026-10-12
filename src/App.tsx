@@ -32,6 +32,9 @@ const TestingPatterns = lazy(
 const SystemDesign = lazy(
   () => import("./patterns/13-system-design/SystemDesign"),
 );
+const React19Patterns = lazy(
+  () => import("./patterns/14-react19/React19Patterns"),
+);
 
 function App() {
   return (
@@ -52,6 +55,7 @@ function App() {
         <Route path="a11y" element={<A11yPatterns />} />
         <Route path="testing" element={<TestingPatterns />} />
         <Route path="system-design" element={<SystemDesign />} />
+        <Route path="react-19" element={<React19Patterns />} />
       </Route>
     </Routes>
   );

@@ -16,6 +16,7 @@ const navItems = [
   { path: "/a11y", label: "11 · Accessibility" },
   { path: "/testing", label: "12 · Testing" },
   { path: "/system-design", label: "13 · System Design" },
+  { path: "/react-19", label: "14 · React 19 Tips" },
 ];
 
 export default function Layout() {

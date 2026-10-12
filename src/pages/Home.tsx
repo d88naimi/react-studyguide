@@ -79,6 +79,12 @@ const topics = [
     title: "System Design",
     desc: "Code splitting, module structure, component libraries, scalability",
   },
+  {
+    path: "/react-19",
+    num: "14",
+    title: "React 19 Tips & Tricks",
+    desc: "Actions, useOptimistic, useActionState, use(), ref as a prop, useEffectEvent",
+  },
 ];
 
 export default function Home() {
