@@ -38,6 +38,9 @@ const React19Patterns = lazy(
 const InterviewExercises = lazy(
   () => import("./patterns/15-interview-prep/InterviewExercises"),
 );
+const ReactInterviewQuestions = lazy(
+  () => import("./patterns/16-interview-questions/ReactInterviewQuestions"),
+);
 
 function App() {
   return (
@@ -60,6 +63,10 @@ function App() {
         <Route path="system-design" element={<SystemDesign />} />
         <Route path="react-19" element={<React19Patterns />} />
         <Route path="interview-prep" element={<InterviewExercises />} />
+        <Route
+          path="interview-questions"
+          element={<ReactInterviewQuestions />}
+        />
       </Route>
     </Routes>
   );

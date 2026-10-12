@@ -91,6 +91,12 @@ const topics = [
     title: "Live Coding Interview Exercises",
     desc: "Autocomplete, infinite scroll, modal, tabs, countdown, validated form, sortable list, star rating",
   },
+  {
+    path: "/interview-questions",
+    num: "16",
+    title: "React Interview Questions",
+    desc: "Conceptual Q&A reference: fundamentals, Hooks, architecture, and modern patterns",
+  },
 ];
 
 export default function Home() {

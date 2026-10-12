@@ -18,6 +18,7 @@ const navItems = [
   { path: "/system-design", label: "13 · System Design" },
   { path: "/react-19", label: "14 · React 19 Tips" },
   { path: "/interview-prep", label: "15 · Interview Exercises" },
+  { path: "/interview-questions", label: "16 · Interview Questions" },
 ];
 
 export default function Layout() {
